@@ -60,11 +60,12 @@ def caculateOperation(endTime):
 while(1):
     # 8点和20点执行一次
     nowHour = str(datetime.datetime.now())[11:13]
+    print('job执行当前时间'+nowHour)
     if (nowHour == '23'):
         caculateOperation(str(datetime.datetime.now())[0:10])
     if ( nowHour == '20'):
         caculateOperation(str(datetime.datetime.now())[0:10])
-    time.sleep(43200)
+    time.sleep(3600)
     
 
 
