@@ -75,6 +75,7 @@ while(1):
         caculateOperation(str(datetime.datetime.now())[0:10])
     if ( nowHour == '20'):
         caculateOperation(str(datetime.datetime.now())[0:10])
+    caculateOperation(str(datetime.datetime.now())[0:10])   
     time.sleep(3600)
 
 
